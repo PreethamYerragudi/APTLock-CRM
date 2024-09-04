@@ -1,0 +1,105 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .dashboard-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .dashboard-item {
+    text-align: left;
+  }
+  
+  .dashboard-stat-description{
+    font-size: 14px;
+    text-align: left;
+  }
+  
+  .dashboard-section {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+  }
+  
+  .dashboard-stat {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+
+  .enquiry-intro{
+    font-size: 1.35em;
+    font-weight: bold;
+    
+  }
+  .enquiries-list {
+    float: left;
+    width: 70%;
+    height: 25rem;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow:scroll;
+  }
+  
+  
+  .enquiries-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .enquiries-list table th, .task-list table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #232222;
+  }
+  
+  .enquiries-list table th {
+    background: #050505;
+    color: #f1f1f1;
+    font-weight: bold;
+  }
+  
+  .enquiries-list table tbody tr:hover {
+    background: #f1f1f1;
+  }
+  
+  .task-list {
+    float: right;
+    width: 20%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-list h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .task-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .task-list table th, .task-list table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .task-list table th {
+    background: #f8f8f8;
+  }
+  
+  .task-list table tbody tr:hover {
+    background: #f1f1f1;
+  }

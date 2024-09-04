@@ -1,0 +1,88 @@
+.contacts {
+  padding: 20px;
+  background: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contacts-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contacts-header h1 {
+  margin: 0;
+}
+
+.contacts-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.contacts-actions button {
+  font-size:15px;
+  font-weight: bold;
+  padding: 10px;
+  background: #b30021;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contacts-actions button:hover {
+  background: #ff001e;
+}
+
+.contacts table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.contacts table th, .contacts table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.contacts table th {
+  background-color: #f8f8f8;
+  font-weight: bold;
+}
+
+.contacts table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.contacts table td {
+  vertical-align: top;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.pagination button {
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.pagination button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  font-weight: bold;
+}
